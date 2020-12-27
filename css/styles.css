@@ -1,0 +1,203 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+#meet {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin: 0 auto 0;
+}
+
+#designer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+/* #buttons1 {
+  margin-left: 0px;
+  margin-top: 45px;
+} */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.container {
+  padding: 3% 8%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* Image */
+.iphone {
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 5%;
+  transform: rotate(25deg);
+}
+
+@media (max-width: 1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    text-align: center;
+    margin-left: 23%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  #meet {
+    text-align: center;
+  }
+
+  #designer {
+    text-align: center;
+  }
+
+  #buttons1 {
+    text-align: center;
+  }
+}
+
+/* Features Section */
+#features {
+  padding: 7% 0;
+  margin: 80px auto;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat-bold' sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  padding: 7% auto;
+  text-align: center;
+  color: #fff;
+}
+
+h2{
+  font-family: 'Montserrat-bold' sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 14%;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.talk {
+  font-size: 1rem;
+  color: #fff;
+  font-style: italic;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.partners-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.mastiff {
+  font-size: 0.98rem;
+}
+.prim {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+  .pri {
+   font-size: 2rem;
+  }
+}
+
+/* Call to action section */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+.cta-desc {
+  padding-bottom: 3%;
+  font-size: 3rem;
+  font-style: bold;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: grey;
+}
+
+.social-icon:hover {
+  color: black;
+}
